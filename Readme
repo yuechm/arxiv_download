@@ -1,4 +1,5 @@
-Necessity: numpy,argparse,wget,arxiv,pdfx
+Necessity: numpy,argparse,wget,arxiv,pdfx 
+python 2.7
 
 download them by :
 

@@ -50,7 +50,12 @@ parser.add_argument('--doi',  help='doi, string', type=str, default = ".")
 args = parser.parse_args()
 params=vars(args)
 
-hdir="/Users/changmingyue/Documents/arXiv_papers/"
+
+hdir=os.getcwd()
+print "home directory set as where-you-run: ", hdir
+# you can set it as 
+# hdir="/Users/changmingyue/Documents/arXiv_papers/"
+
 if not os.path.exists(hdir): os.system("mkdir " + hdir)
 newdir=hdir+params["dir"]
 if not os.path.exists(newdir): os.system("mkdir " + newdir)

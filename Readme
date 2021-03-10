@@ -4,3 +4,29 @@ download them by :
 
 pip install argparse wget arxiv pdfx
 
+>>> arxiv_search_download.py
+Search or download the arXiv or even aps papers!
+													
+Usage-1, find someone's paper (cat can be str-el, mtrl-sci, supr-con or all), eg:
+python arxiv_search_download.py --aut="Piers Coleman" --num=50 --cat=all
+													
+Usage-2A, find some topic, eg:
+python arxiv_search_download.py --key="machine learning" --num=50 --cat=all
+Usage-2B, find some topic, and shown abstrct, eg:
+python arxiv_search_download.py --key="machine learning" --num=50 --cat=all --abs=1 
+													
+Usage-3, find someone's paper and download to your directory, eg:
+python arxiv_search_download.py --dir="ImpuritySolver" --key="Impurity Solver" --cat=all  --num=50 --dwn=1
+													
+Usage-4, get the latest papers (and even download it!), just run
+python arxiv_search_download.py --num=10
+python arxiv_search_download.py --num=10 --dwn=1 --dir="new" 
+													
+For more details, please refer to 
+https://arxiv.org/help/api/user-manual or https://github.com/lukasschwab/arxiv.py
+Developer : yuechangming8@gmail.com, based on arxiv interfaces.
+
+
+>>> get_links_download_in_pdf.py
+
+Search or download the refs as links in a pdf file (not works for scanned pdf or papers without link)

@@ -21,6 +21,10 @@ python arxiv_search_download.py --dir="ImpuritySolver" --key="Impurity Solver" -
 Usage-4, get the latest papers (and even download it!), just run
 python arxiv_search_download.py --num=10
 python arxiv_search_download.py --num=10 --dwn=1 --dir="new" 
+
+Usage-5 get latest abstracts and search your keywords
+python arxiv_search_download.py --abs=1 --cat=all --num=1000 > abstracts_latest_1000
+grep "supercondu" abstracts_latest_1000 | head -n 10
 													
 For more details, please refer to 
 https://arxiv.org/help/api/user-manual or https://github.com/lukasschwab/arxiv.py

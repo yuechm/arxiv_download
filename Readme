@@ -37,7 +37,9 @@ Search or download the refs as links in a pdf file (not works for scanned pdf or
 
 >>>  download_aps_citedby.py
 (please see this script and find the necessary modules in "import ..." and fix it).
-Search or download the citing papers for an aps cite-by link
+Search or download the citing papers for an aps cite-by link, e.g.
+python download_aps_citedby.py --url="https://journals.aps.org/prl/cited-by/10.1103/PhysRevLett.123.090605" --dir="prl_123090605"
+
 
 
 

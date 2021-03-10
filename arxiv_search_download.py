@@ -51,7 +51,7 @@ args = parser.parse_args()
 params=vars(args)
 
 
-hdir=os.getcwd()
+hdir=os.getcwd()+"/"
 print "home directory set as where-you-run: ", hdir
 # you can set it as 
 # hdir="/Users/changmingyue/Documents/arXiv_papers/"

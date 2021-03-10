@@ -1,0 +1,6 @@
+Necessity: numpy,argparse,wget,arxiv,pdfx
+
+download them by :
+
+pip install argparse wget arxiv pdfx
+

@@ -57,7 +57,7 @@ for i in range(N):
       print>>ff, i+1, "\n",  "refs, link ==> ", urls[i]
 
    elif  params["dwn"]==1:
-       tm = 3.0*(1.0+np.random.random()) # in case of breaking law...
+       tm = 5.0*(1.0+np.random.random()) # in case of breaking law...
        print ". Now sleep ", tm, " secs";  time.sleep(tm)
 
        if "nature" in urls[i] or "nphys" in  urls[i]:  

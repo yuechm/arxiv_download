@@ -115,7 +115,7 @@ for icat in range(len(catg)):
                if larxv==1: 
                    print "\n downloading axv, title ==> ", R[i].title.encode("utf-8")
                    arxiv.download(R[i],newdir)
-                   tm = 3.0*(1.0+np.random.random()) # in case of breaking law...
+                   tm = 5.0*(1.0+np.random.random()) # in case of breaking law...
                    print ". Now sleep ", tm, " secs";  time.sleep(tm)
                else:
                    wget.download(url,newdir)

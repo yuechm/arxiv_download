@@ -10,8 +10,8 @@ import wget
 import arxiv
 
 help_message= """
-													
-Search or download the citing papers for a aps cite-by link"
+
+Search or download the citing papers for an aps cite-by link
 													
 Developer : changming.yue@unifr.ch, based on arxiv interfaces.
 usage:

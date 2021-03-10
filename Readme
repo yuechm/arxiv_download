@@ -30,3 +30,11 @@ Developer : yuechangming8@gmail.com, based on arxiv interfaces.
 >>> get_links_download_in_pdf.py
 
 Search or download the refs as links in a pdf file (not works for scanned pdf or papers without link)
+
+>>>  download_aps_citedby.py
+Search or download the citing papers for an aps cite-by link
+
+
+
+Note: Please let the scripts sleeps longer to avoid punishment (time.sleep function inside) !!!
+

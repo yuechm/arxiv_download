@@ -15,7 +15,7 @@ Search or download the citing papers for an aps cite-by link
 													
 Developer : changming.yue@unifr.ch, based on arxiv interfaces.
 usage:
-python down_citings.py --url="https://journals.aps.org/prl/cited-by/10.1103/PhysRevLett.123.090605" --dir="prl_123090605"
+python download_aps_citedby.py --url="https://journals.aps.org/prl/cited-by/10.1103/PhysRevLett.123.090605" --dir="prl_123090605"
 Good Luck !
 	
 """
